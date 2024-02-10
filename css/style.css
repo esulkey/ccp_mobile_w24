@@ -1,3 +1,37 @@
+html {
+    display: block;
+}
+
+header {
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3 {
+    display: block;
+    font-size: 35.1px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -39,3 +73,98 @@ header nav ul {
     top: 0;
     opacity: 1;
   }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: rgb(255, 111, 111);
+    background-size: cover;
+    padding: 10px;
+    width: 620 px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: rgb(255, 250, 111);
+    background-size: cover;
+    padding: 10px;
+    width: 620 px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: rgb(111, 255, 169);
+    background-size: cover;
+    padding: 10px;
+    width: 620 px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: rgb(111, 200, 255);
+    background-size: cover;
+    padding: 10px;
+    width: 620 px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .grid5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background: rgb(181, 111, 255);
+    background-size: cover;
+    padding: 10px;
+    width: 620 px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .grid-item1 {
+    background: whitesmoke;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: black;
+  }
+
+  .likes-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.likes-list li {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
