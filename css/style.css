@@ -23,14 +23,14 @@ h1 {
 
 h2 {
     display: block;
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
 }
 
 h3 {
     display: block;
-    font-size: 35.1px;
+    font-size: 22px;
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
 }
@@ -75,6 +75,10 @@ header nav ul {
   .skip-main:focus {
     top: 0;
     opacity: 1;
+  }
+
+  a {
+    text-decoration: underline;
   }
 
   .grid1 {
@@ -168,13 +172,18 @@ header nav ul {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+ul {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 * {
